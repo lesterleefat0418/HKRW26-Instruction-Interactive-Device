@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class LanguageUI : MonoBehaviour
 {
-    public Font tc, cn;
-    public Text text;
+    public TMP_FontAsset tc, cn;
+    public TextMeshProUGUI text;
     public string tcText, cnText, engText;
     public int chineseFontSize, englishFontSize;
 
